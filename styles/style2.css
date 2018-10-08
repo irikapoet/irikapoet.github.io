@@ -1,0 +1,70 @@
+html {
+    background-color: rgb(218, 232, 238);
+}
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;    
+    line-height: 2;
+    color: darkslategray;
+    text-align: center;
+  }
+  h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;    
+    line-height: 2;
+    color: rgb(12, 68, 68);
+    text-align: center;
+  }
+
+   pre {
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;    
+    color: black;
+  }
+  a.button19 {
+    display: inline-block;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0,0,0,.5);
+    user-select: none;
+    padding: .7em 1.5em;
+    border: 1px solid rgb(80,32,0);
+    border-radius: 5px;
+    outline: none;
+    background: rgb(189, 50, 50) linear-gradient(rgb(253, 88, 88), rgb(147,80,36) 80%);
+    box-shadow:
+     0 6px rgb(86,38,6),
+     0 3px 15px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    transition: .2s;
+  } 
+  .button19:hover {
+    background: rgb(167,91,41) linear-gradient(rgb(126,69,31), rgb(167,91,41) 80%);
+  }
+  .button19:active {
+    background: rgb(120,63,25) linear-gradient(rgb(120,63,25) 20%, rgb(167,91,41));
+    box-shadow:
+     0 2px rgb(86,38,6),
+     0 1px 6px rgba(0,0,0,.4),
+     inset 0 1px rgba(255,255,255,.3),
+     inset 0 0 3px rgba(255,255,255,.5);
+    -webkit-transform: translate(0, 4px);
+    transform: translate(0, 4px);}
+    
+  
+body {
+  background-image: url(../images/fon.jpg);
+}
+
+div.container {
+  width: 600px;
+  margin: 0 auto;
+  background-color:#E6E474;
+  padding: 0 40px 40px 40px;
+  border: 5px solid lightsalmon;
+}
